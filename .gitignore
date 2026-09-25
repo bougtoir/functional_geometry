@@ -1,0 +1,14 @@
+data/raw/straw_sources/*
+!data/raw/straw_sources/README.md
+data/raw/toilet_paper_sources/snapshots/
+data/raw/jclp_sources/snapshots/
+data/raw/literature_crossref/
+data/raw/patents/snapshots/
+.venv/
+.pytest_cache/
+scripts/__pycache__/
+tests/__pycache__/
+*.pyc
+review_render/
+audit_work/
+.make_all_start_status

@@ -1,0 +1,19 @@
+field,definition,status_or_units
+source_id,Stable join key shared by source list acquisition ledger and enriched registry,TEXT
+market,Geographic market or jurisdiction represented by the record,CATEGORICAL
+category,Source role such as product specification standard or consumption study,CATEGORICAL
+title_or_identifier,Named product document standard study or patent identifier,TEXT
+variables,Semicolon-delimited variables available from the source,TEXT
+observation_unit,Unit to which the source's observations apply,TEXT
+evidence_grade,Fitness grade defined in reports/toilet_paper_data_sources_2026-09-24.md,A1|A2|B1|B2|C1|D
+directness,Controlled vocabulary describing relation to width and consumption,CATEGORICAL
+redistributability,Practical reuse and redistribution restriction note,TEXT
+url,Original public source URL,URL
+access_date,Date on which the source was accessed,YYYY-MM-DD
+source_type,Acquisition-oriented source class from sources.tsv,CATEGORICAL
+capture_status,Derived status of the latest recorded acquisition,CATEGORICAL
+retrieved_at_utc,UTC timestamp of the latest recorded acquisition,ISO-8601
+content_type,HTTP content type recorded at acquisition,TEXT
+local_snapshot,Durable project-local path to the latest recorded source body,PATH
+file_size_bytes,Recorded local source-body size,BYTES
+sha256,SHA-256 checksum of the recorded local source body,HEX-64
