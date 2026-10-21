@@ -1,0 +1,37 @@
+{
+  "seed": 20260924,
+  "monte_carlo_iterations": 200000,
+  "toilet_width": {
+    "baseline_width_mm": 114.0,
+    "candidate_widths_mm": [100.0, 95.0, 90.0, 80.0],
+    "primary_candidate_width_mm": 95.0,
+    "primary_candidate_status": "ILLUSTRATIVE_REFERENCE_SCENARIO",
+    "elasticity_triangular": [-1.2, -0.35, 0.15],
+    "success_ratio_triangular": [0.95, 0.99, 1.0],
+    "manufacturing_penalty_uniform": [0.0, 0.02]
+  },
+  "center_perforation": {
+    "half_suitable_probability_beta": [3.0, 3.0],
+    "half_task_unit_multiplier_triangular": [1.0, 1.15, 1.8],
+    "success_ratio_triangular": [0.96, 0.995, 1.0],
+    "manufacturing_penalty_uniform": [0.0, 0.02],
+    "reported_task_mix_scenarios": [0.25, 0.5, 0.75],
+    "reported_half_task_multiplier": 1.2
+  },
+  "straw": {
+    "primary_length_reduction_fraction": 0.2,
+    "monte_carlo_replacement_formulation": "EXPECTED_ADDITIONAL_REPLACEMENT_RATE",
+    "expected_additional_replacement_rate_triangular": [0.0, 0.05, 0.35],
+    "shifted_container_burden_uniform": [0.0, 0.05],
+    "reported_length_reductions": [0.1, 0.2, 0.3],
+    "reported_expected_additional_replacement_rates": [0.0, 0.1, 0.2, 0.3, 0.4],
+    "reported_failure_probabilities": [0.0, 0.1, 0.2, 0.3, 0.4]
+  },
+  "logistics": {
+    "illustrative_carton_internal_mm": [400.0, 300.0, 250.0],
+    "illustrative_unit_other_dimensions_mm": [20.0, 20.0],
+    "illustrative_straw_lengths_mm": [165.0, 132.0, 115.5],
+    "vehicle_payload_kg": 24000.0,
+    "vehicle_volume_m3": 82.0
+  }
+}

@@ -1,0 +1,28 @@
+file,purpose
+Manuscript.docx,Editable main manuscript with inline figures and tables
+Manuscript.pdf,Rendered manuscript for review
+Title_page.docx,Separate editable title page
+Cover_letter.docx,Editable cover-letter draft; confirmation fields remain
+Highlights.docx,Required editable highlights
+Highlights.txt,Plain-text highlights
+Supplementary_material.docx,Editable supplementary methods and protocols
+Supplementary_material.pdf,Rendered supplement for review
+Tables_editable.docx,Separate editable tables
+Figures_overview.pptx,Overview deck containing raster previews; vector sources are separate
+Graphical_abstract.png,Graphical abstract raster
+Graphical_abstract_editable.pptx,Editable graphical abstract slide with native shapes
+figure_1_fgo_framework.svg,Editable vector source for Figure 1
+figure_2_width_compensation_surface.svg,Editable vector source for Figure 2
+figure_3_observed_contrasts_and_perforation.svg,Editable vector source for Figure 3
+figure_4_straw_and_logistics_boundaries.svg,Editable vector source for Figure 4
+figure_5_scenario_uncertainty.svg,Editable vector source for Figure 5
+figure_1_fgo_framework.pdf,Publication vector file for Figure 1
+figure_2_width_compensation_surface.pdf,Publication vector file for Figure 2
+figure_3_observed_contrasts_and_perforation.pdf,Publication vector file for Figure 3
+figure_4_straw_and_logistics_boundaries.pdf,Publication vector file for Figure 4
+figure_5_scenario_uncertainty.pdf,Publication vector file for Figure 5
+figure_1_fgo_framework.png,Publication raster preview for Figure 1
+figure_2_width_compensation_surface.png,Publication raster preview for Figure 2
+figure_3_observed_contrasts_and_perforation.png,Publication raster preview for Figure 3
+figure_4_straw_and_logistics_boundaries.png,Publication raster preview for Figure 4
+figure_5_scenario_uncertainty.png,Publication raster preview for Figure 5

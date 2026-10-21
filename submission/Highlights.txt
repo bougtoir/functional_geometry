@@ -1,0 +1,5 @@
+• Geometry reduction is tested per successful service, not per item.
+• Toilet-paper width benefit fails at elasticity minus one.
+• Center perforation can match width to heterogeneous task demand.
+• Straw shortening is optimized jointly with container geometry.
+• Packing and rebound create conditional, discontinuous benefits.
