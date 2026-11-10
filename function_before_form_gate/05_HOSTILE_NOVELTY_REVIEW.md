@@ -1,0 +1,21 @@
+# 05 — Hostile Novelty Review (Gate D)
+
+Each objection is stated in its strongest form. "Fatal" means fatal to the route named; the overall verdict is in `08_FINAL_NOVELTY_GATE.md`.
+
+| # | Strongest form of objection | Supporting literature | Fatal? | Evidence that would resolve it |
+|---|---|---|---|---|
+| D1 | "This is value engineering." Value analysis asks what a part *does* and what else would do it; function-first cost/value reasoning has existed for decades. | Value-engineering canon (Miles; not retrieved), Ibusuki & Kaminski 2006 (MD) | **Fatal for conceptual route.** Not fatal for an empirical test of framing effects on environmental outcomes, which VE does not report. | Show that VE-style function framing has not been tested against environmental endpoints (supported by A7 "not found") |
+| D2 | "Functional decomposition and solution-neutral abstraction are textbook." | Pahl et al.; Stone & Wood 2000 ("form independent blueprint"); Gero & Kannengiesser 2004 | **Fatal for conceptual route.** | None — must be conceded |
+| D3 | "LCA already defines the function as the requirement (functional unit) and compares alternatives across forms." | Cooper 2003; ISO 14040/44 practice; Ekvall & Weidema 2004 | **Fatal for 'function as requirement' as a contribution.** Not fatal for studying *designer* framing, because the functional unit is applied after alternatives exist. | Show the effect occurs upstream, in which alternatives get generated |
+| D4 | "Tautology: a form-unconstrained search space contains the form-constrained one, so its optimum is at least as good." | Set inclusion; optimisation theory | **Fatal for any exhaustive-optimisation claim (E5 as optimisation).** Not fatal for bounded search with equal effort, where a larger space can also yield worse picks (Zahner 2010). | Equal time/effort budget; outcome = selected concept; report both better and worse tails |
+| D5 | "Straw man: nobody in professional ecodesign does only material substitution." | Ceschin & Gaziulusoy 2016; PSS; circular design; FIM | **Fatal if the paper asserts substitution bias in practice** (Gate C: not established). | Measure practice (C1) or frame the study as a framing manipulation that does not presuppose prevalence |
+| D6 | "Reopening form adds complexity, infeasible ideas, regulatory risk and rebound; it can be worse." | Zahner 2010; Tukker 2004; Kjaer 2019; Gallego-Schmid 2019 | Not fatal — it is a **hypothesis the study must be able to confirm** | Pre-specified feasibility/functional-equivalence screening; two-sided hypotheses |
+| D7 | "This is a normative design slogan, not a scientific claim." | The proposition itself | **Fatal for Perspective/conceptual route** (no falsifiable content beyond D1–D3). Not fatal for E3, which is falsifiable. | Pre-registered directional hypothesis with falsifier F2 (Gate C) |
+| D8 | "No independent contribution: it is fixation research + ecodesign glued together." | Linsey 2010; Faludi 2020; Collado-Ruiz 2010 (unread) | **Serious, possibly fatal.** Survives only if the environmental endpoint is genuinely measured and Collado-Ruiz 2010 / Scopus-WoS search do not already provide it. | Read Collado-Ruiz 2010; run Scopus/WoS search on brief framing × LCA-evaluated concepts |
+| D9 | "Unfair comparison: arms differ in search budget or information, not in framing." | Experimental design standards (Vasconcelos & Crilly 2016) | Not fatal if designed out | Identical time, materials, briefing length and information; only the framing sentence differs; manipulation checks |
+| D10 | "No environmental endpoint: novelty/variety are not environmental performance." | Faludi et al. 2020 explicitly avoided objective assessment as "too subjective and too highly uncertain"; Tukker 2004 | **Fatal unless solved.** This is the decisive feasibility risk. | A pre-specified, blinded screening-LCA protocol for concept-level designs with archetype inventories, functional-equivalence rules and uncertainty ranges, piloted for inter-assessor reliability |
+
+## Gate D conclusion
+
+- Conceptual synthesis, Perspective, and optimisation/sequencing-model routes **do not survive** D1, D2, D3, D4 and D7.
+- A controlled framing experiment with a measured environmental endpoint **survives conditionally**: D8 (unverified prior study) and D10 (endpoint validity) remain open and either could be fatal.
